@@ -34,17 +34,17 @@ end
 game.StarterGui:SetCore(
     "SendNotification",
     {
-	Title = "Zzz's Hub.",
-	Text = "Whitelisted by @zzzsmokedyou.",
+	Title = "DOA's Hub.",
+	Text = "Blacklisted by @Ceo DOA.",
 }
 )
 local L_3_ = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
-local L_4_ = L_3_.CreateLib("Zzz's Hub", "Ocean")
+local L_4_ = L_3_.CreateLib("DOA's Hub", "BloodTheme")
 local L_5_ = L_4_:NewTab("Aimlock")
-local L_6_ = L_5_:NewSection("Zzz's Hub")
+local L_6_ = L_5_:NewSection("DOA's Hub")
 L_6_:NewButton(
     "Aimlock",
-    "Beam niggas down",
+    "Beam Kids down",
     function()
 	getgenv().AimPart = "Head"
 	getgenv().AimlockKey = "c"
@@ -255,7 +255,7 @@ L_6_:NewDropdown(
 end
 )
 local L_11_ = L_4_:NewTab("AntiLock")
-local L_12_ = L_11_:NewSection("Zzz's Hub")
+local L_12_ = L_11_:NewSection('DOA's Hub")
 L_12_:NewButton(
     "Anti-Lock",
     "Key is Z.",
@@ -384,7 +384,7 @@ end
 
 local L_17_ = L_4_:NewTab("Visuals C+")
 local L_18_ = loadstring(game:HttpGet("https://pastebin.com/raw/TH9N2EMu"))()
-local L_19_ = L_17_:NewSection("Zzz's Hub")
+local L_19_ = L_17_:NewSection("DOA's Hub")
 L_19_:NewToggle(
     "ESP",
     "ESP",
@@ -456,20 +456,20 @@ end
 game.StarterGui:SetCore(
     "SendNotification",
     {
-	Title = "Zzz's Hub.",
-	Text = "Whitelisted by @zzzsmokedyou.",
+	Title = "DOA's Hub.",
+	Text = "Blacklisted by @Visualfxx.",
 }
 )
 local L_3_ = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
-local L_4_ = L_3_.CreateLib("Zzz's Hub", "Ocean")
+local L_4_ = L_3_.CreateLib("DOA's", "BloodTheme")
 local L_5_ = L_4_:NewTab("Aimbot")
-local L_6_ = L_5_:NewSection("Zzz's Hub")
+local L_6_ = L_5_:NewSection("DOA's Hub")
 L_6_:NewButton(
     "Aimlock",
     "Beam niggas down",
     function()
 	getgenv().AimPart = "Head"
-	getgenv().AimlockKey = "c"
+	getgenv().AimlockKey = "t"
 	getgenv().AimRadius = 100
 	getgenv().ThirdPerson = true
 	getgenv().FirstPerson = true
@@ -679,7 +679,7 @@ end
 
 local L_17_ = L_4_:NewTab("Visuals C+")
 local L_18_ = loadstring(game:HttpGet("https://pastebin.com/raw/TH9N2EMu"))()
-local L_19_ = L_17_:NewSection("Zzz's Hub")
+local L_19_ = L_17_:NewSection("DOA's Hub")
 L_19_:NewToggle(
     "ESP",
     "ESP",
@@ -715,35 +715,35 @@ L_19_:NewToggle(
 	L_18_.Boxes = L_204_arg0
 end
 )
-local L_7_ = L_4_:NewTab("Autofarm")
-local L_8_ = L_7_:NewSection("Zzz's Hub")
+local L_7_ = L_4_:NewTab("DOA Autofarm")
+local L_8_ = L_7_:NewSection("DOA's Hub")
 L_8_:NewButton(
     "Autofarm",
     "Autofarm.",
     function()
-	loadstring(game:HttpGet("https://raw.githubusercontent.com/zzzsmokedyou/farmzzz/main/sb"))()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/DOA777/Farm/refs/heads/main/Auto",true))()
 end
 )
 local L_7_ = L_4_:NewTab("Anti Afk")
-local L_8_ = L_7_:NewSection("Zzz's Hub")
+local L_8_ = L_7_:NewSection("DOA's Hub")
 L_8_:NewButton(
     "Anti Afk",
     "Anti Afk.",
     function()
-	loadstring(game:HttpGet(('https://raw.githubusercontent.com/zzzsmokedyou/antiafk/main/zzz'),true))()
+	loadstring(game:HttpGet("raw.githubusercontent.com/DOA777/Sb/refs/heads/main/SB",true))()
 end
 )
 local L_7_ = L_4_:NewTab("Inf Yield")
-local L_8_ = L_7_:NewSection("Zzz's Hub")
+local L_8_ = L_7_:NewSection("DOA's Hub")
 L_8_:NewButton(
     "Inf Yield",
-    "Inf Yield.",
+    "Inf Yield. Noclip is not working!",
     function()
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source"))()
 end
 )
 local L_13_ = L_4_:NewTab("Settings")
-local L_14_ = L_13_:NewSection("Zzz's Hub")
+local L_14_ = L_13_:NewSection("DOA's Hub")
 L_14_:NewKeybind(
     "Keybind Gui Toggle",
     "h",
@@ -753,10 +753,10 @@ L_14_:NewKeybind(
 end
 )
 local L_7_ = L_4_:NewTab("Credits")
-local L_8_ = L_7_:NewSection("Zzz's Hub")
+local L_8_ = L_7_:NewSection("DOA's Hub")
 L_8_:NewButton(
-    "@zzzsmokedyou on discord",
-    "@zzzsmokedyou.",
+    "@Visualfxx on discord",
+    "@Ceo DOA.",
     function()
 
 end
